@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    background: saddlebrown;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.content{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#mainImg{
+    float: left;
+    margin-left: 30%;
+    margin-right: 10%;
+    border-radius: 50%;
+}
+
+#orderBtn{
+    width: 130px;
+    height: 50px;
+    margin-top: 120px;
+}
+
+.recipe{
+    width: 100%;
+    padding: 20px;
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box{
+    border: 2px solid saddlebrown;
+    border-radius: 10%;
+    padding: 10px 20px 10px 20px ;
+    float: left;;
+    margin:10px;
+    margin-top: 50px;
+    
+}
+
+#recipeTitle{
+    background: saddlebrown;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h4{
+    color: saddlebrown;
+    text-align: center;
+}
+
+.make{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.make .item{
+    margin:10px;
+}
+
+.complete {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 150px;
+    height: 70px;
+    border-radius: 15px;
+    color: saddlebrown;
+    background: white;
+    border: 2px solid saddlebrown;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.btn:hover{
+    background: saddlebrown;
+    color: white;
+    transform: scale(1.2);
+}
+
+.serve {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.serve .comment{
+    width: 30%;
+    height: 160px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.reset{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+.footer {
+    width: 100%;
+    background: saddlebrown;
+    position: fixed;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    padding: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: wheat;
+    font-weight: bold;
+} 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>카페알바 게임</title>
+</head>
+<body>
+    <div class="header">
+        ☕ Working at a Coffe Shop ☕
+    </div>
+    <div class="content">
+        <div class="order">
+            <img id="mainImg" src="order.jpg" alt="order" width="300px">
+            <button id="orderBtn" class="btn">주문받기</button>
+            <p>메뉴 : <span id="coffee">coffee</span></p>
+        </div>
+        
+        <div class="recipe">
+            <div id="recipeTitle" class="box">
+                <p>레시피 👨‍🍳</p>
+            </div>
+            <div class="box">
+                <h4>Espresso</h4>
+                <ol>
+                    <li>에스프레소 : 2샷</li>
+                </ol>
+            </div>
+            <div class="box">
+                <h4>Americano</h4>
+                <ol>
+                    <li>에스프레소 : 2샷</li>
+                    <li>물 : 1컵</li>
+                </ol>
+            </div>
+            <div class="box">
+                <h4>Caffe Latte</h4>
+                <ol>
+                    <li>에스프레소 : 2샷</li>
+                    <li>우유 : 1컵</li>
+                </ol>
+            </div>
+        </div>
+        <div class="make">
+            <div class="item">
+                <p><span id="esp">0</span> 샷</p>
+                <button id="metarial1" class="num">에스프레소</button>
+            </div>
+            <div class="item">
+                <p><span id="water">0</span> 컵</p>
+                <button id="metarial2" class="num">물</button>
+            </div>
+            <div class="item">
+                <p><span id="milk">0</span> 컵</p>
+                <button id="metarial3" class="num">우유</button>
+            </div>
+        </div>
+        <div class="complete"><button class="btn">제조완료</button></div>
+        <div class="serve">
+            <img src="serve.jpg" alt="coffee" width="400px">
+            <p class="comment"><span id="comment">Thank you!</span></p>
+        </div>
+        <div class="reset">
+            <button id="resetBtn" class="btn" onClick="window.location.reload()" >다시하기</button>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://github.com/xianeml" target="_blank">More games on my Github! 👩‍💻 @xianeml</a>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
