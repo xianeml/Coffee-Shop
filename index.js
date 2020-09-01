@@ -4,8 +4,10 @@ var makeBtn1 = document.querySelector('#metarial1');
 var makeBtn2 = document.querySelector('#metarial2');
 var makeBtn3 = document.querySelector('#metarial3');
 var num = document.querySelectorAll('.num');
-var numSet = 0;
-var complete = document.querySelector('.btn');
+var numSet1 = 0;
+var numSet2 = 0;
+var numSet3 = 0;
+var complete = document.querySelector('.complete');
 var comment = document.querySelector('#comment');
 var esp = document.querySelector('#esp');
 var water = document.querySelector('#water');
@@ -24,15 +26,15 @@ orderBtn.addEventListener("click", function(){
 });
 
 makeBtn1.addEventListener("click", function(){
-    esp.textContent = numSet+=1;
+    esp.textContent = numSet1+=1;
 });
 
 makeBtn2.addEventListener("click", function(){
-    water.textContent = numSet+=1;
+    water.textContent = numSet2+=1;
 });
 
 makeBtn3.addEventListener("click", function(){
-    milk.textContent = numSet+=1;
+    milk.textContent = numSet3+=1;
 });
 
 complete.addEventListener("click", function(){
@@ -70,10 +72,3 @@ function MakeLat(){
         comment.textContent = "웁스..";
     }
 };
-
-// resetBtn.addEventListener("click", function(){
-//     coffee.textContent = "coffee";
-//     num.textContent = 0;
-//     comment.textContent = "";
-// });
-
